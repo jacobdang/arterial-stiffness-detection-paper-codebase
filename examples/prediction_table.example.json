@@ -1,0 +1,16 @@
+{
+  "image": {
+    "format": "image_pickle",
+    "path": "OUTPUTS/bilateral/top_checkpoint_ensemble_test_result.pickle"
+  },
+  "factor": {
+    "format": "clinical_csv",
+    "path_pattern": "OUTPUTS/fusion_random_mi/method_lr_basic/mice_imputation_{mi}/metric_only/feat_['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']_test_pred_result.csv",
+    "imputations": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  },
+  "fusion": {
+    "format": "clinical_csv",
+    "path_pattern": "OUTPUTS/fusion_random_mi/method_lr_basic/mice_imputation_{mi}/fusion/feat_['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']_test_pred_result.csv",
+    "imputations": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  }
+}

@@ -1,0 +1,5 @@
+# @package _group_
+network_arch: GenericBiStreamImgOnly
+backbone_name: tinynet_c
+approximate_head_dim: 2048
+wd: 0.001

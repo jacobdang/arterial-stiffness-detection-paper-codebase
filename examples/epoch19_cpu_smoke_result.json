@@ -1,0 +1,14 @@
+{
+  "checkpoint": "models/public_release/paper_main_tinynet_c/tinynet_c_epoch0019_network_state_dict.safetensors",
+  "checkpoint_role": "individual TinyNet-C checkpoint",
+  "checkpoint_sha256": "5f0aa9851341b5a1c39168feeba6a7c8a1f79149e0acf555a785afcb4b1fbe22",
+  "contains_patient_data": false,
+  "device": "cpu",
+  "fixture_manifest": "synthetic_fixture_manifest.json",
+  "fixture_manifest_sha256": "a83929566fcdee4048fc476a205d79b71c2c08a47f414a03c151f824630351d0",
+  "schema_version": 1,
+  "score_role": "engineering smoke output only; not clinical or performance evidence",
+  "status": "PASS",
+  "strict_checkpoint_load": true,
+  "synthetic_score": 0.4240087568759918
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "item": "Table 1",
+    "file": "results/publication_tables/Table_1.csv",
+    "rows": 16,
+    "representation": "Published table text and displayed precision",
+    "sha256": "aab9ab0ea2da330778a9be44741fea98312151d891242b46e7169103313ee2f4"
+  },
+  {
+    "item": "Table 2",
+    "file": "results/publication_tables/Table_2.csv",
+    "rows": 29,
+    "representation": "Published table text and displayed precision",
+    "sha256": "330fce58d058f1882ddac047efe7e8450c17e7003ff3d322abcd3d100d9ec6e4"
+  },
+  {
+    "item": "Table 3",
+    "file": "results/publication_tables/Table_3.csv",
+    "rows": 11,
+    "representation": "Published table text and displayed precision",
+    "sha256": "f6362703ebeff396454cd554474dbbcdc294cbce903e4b49345ef09c2d7d00fe"
+  },
+  {
+    "item": "Table S1",
+    "file": "results/publication_tables/Table_S1.csv",
+    "rows": 4,
+    "representation": "Published table text and displayed precision",
+    "sha256": "0348583dc6473b1dc09378891ef1650d05925a01366497e6794f5c538520c451"
+  },
+  {
+    "item": "Table S2",
+    "file": "results/publication_tables/Table_S2.csv",
+    "rows": 7,
+    "representation": "Published table text and displayed precision",
+    "sha256": "4bcfdf86ce6f1b3b9b7c2bbbcd3ed40f3a63573993fe56722d918b8660976b42"
+  },
+  {
+    "item": "Table S3",
+    "file": "results/publication_tables/Table_S3.csv",
+    "rows": 9,
+    "representation": "Published table text and displayed precision",
+    "sha256": "1a57d783422db31dc4128306ed1b80d322c55521578a13f02d0b7485caefb172"
+  },
+  {
+    "item": "Table S4",
+    "file": "results/publication_tables/Table_S4.csv",
+    "rows": 13,
+    "representation": "Published table text and displayed precision",
+    "sha256": "23c62672f49e72db520db4776d98d82c86bb652b8d7f2ae1f2c9d0d63c9c3034"
+  },
+  {
+    "item": "Table S5",
+    "file": "results/publication_tables/Table_S5.csv",
+    "rows": 12,
+    "representation": "Published table text and displayed precision",
+    "sha256": "9d512efca15ce78b236b526088d7ad7fce7b831f3ed9e6aecd51b7f0d1882063"
+  },
+  {
+    "item": "Table S6",
+    "file": "results/publication_tables/Table_S6.csv",
+    "rows": 9,
+    "representation": "Published table text and displayed precision",
+    "sha256": "a13921bb58e1a292505d48124c83fac10ec8ed3e8e3f58f0e6f7e522aafc690e"
+  },
+  {
+    "item": "Table S7",
+    "file": "results/publication_tables/Table_S7.csv",
+    "rows": 7,
+    "representation": "Published table text and displayed precision",
+    "sha256": "834812ebd51c397e5061eab8cc0b905824e51e049376b2592e4a6eb128f6b419"
+  },
+  {
+    "item": "Table S8",
+    "file": "results/publication_tables/Table_S8.csv",
+    "rows": 7,
+    "representation": "Published table text and displayed precision",
+    "sha256": "df917839cecf73b6040aba2fdf5db83c898f91c012a92464f865db54438b32b3"
+  },
+  {
+    "item": "Table S9",
+    "file": "results/publication_tables/Table_S9.csv",
+    "rows": 5,
+    "representation": "Published table text and displayed precision",
+    "sha256": "b047e75d699d4645834a071e09403269372f5d2b0e392fbde581ee51711aca43"
+  },
+  {
+    "item": "Table S10",
+    "file": "results/publication_tables/Table_S10.csv",
+    "rows": 17,
+    "representation": "Published table text and displayed precision",
+    "sha256": "93fffca6c4a65273b05d2c567aaff903f795687621e1f21e08e8afe0cf823b5a"
+  },
+  {
+    "item": "Table S11",
+    "file": "results/publication_tables/Table_S11.csv",
+    "rows": 28,
+    "representation": "Published table text and displayed precision",
+    "sha256": "81785b0270f4360287dcbc51da668518394088cde1ecc87e525a74882e06d69b"
+  },
+  {
+    "item": "Table S12",
+    "file": "results/publication_tables/Table_S12.csv",
+    "rows": 28,
+    "representation": "Published table text and displayed precision",
+    "sha256": "8c9e96ac1d8952ee35559e9d0435bf4120ccf43fb253f0810a444c88d979a392"
+  },
+  {
+    "item": "Table S13",
+    "file": "results/publication_tables/Table_S13.csv",
+    "rows": 28,
+    "representation": "Published table text and displayed precision",
+    "sha256": "b1d8eb22eda227b938b429297b830a32566791dc1572bb927b58b5f80153ee73"
+  },
+  {
+    "item": "Table S14",
+    "file": "results/publication_tables/Table_S14.csv",
+    "rows": 14,
+    "representation": "Published table text and displayed precision",
+    "sha256": "0ad9a13ef578f776a8af0010cbe4aec3f4780a4e5c41d0521dcb3986f4c16740"
+  },
+  {
+    "item": "Table S15",
+    "file": "results/publication_tables/Table_S15.csv",
+    "rows": 3,
+    "representation": "Published table text and displayed precision",
+    "sha256": "35ae65dac8dbb00fcee108aed0c1ae08de9614b6a4a96f8b57e334dba15726ff"
+  },
+  {
+    "item": "Table S16",
+    "file": "results/publication_tables/Table_S16.csv",
+    "rows": 3,
+    "representation": "Published table text and displayed precision",
+    "sha256": "e6f7c0e65cceafc8e465424127ebf64f46ca9dc25876c7135e8d8c3ac7d04c30"
+  },
+  {
+    "item": "Table S17",
+    "file": "results/publication_tables/Table_S17.csv",
+    "rows": 3,
+    "representation": "Published table text and displayed precision",
+    "sha256": "bb5a2bb807dae7a5d549e8a9cafd4bafbe94faabbfdf909bd59c29e74dcc7fc9"
+  },
+  {
+    "item": "Table S18",
+    "file": "results/publication_tables/Table_S18.csv",
+    "rows": 5,
+    "representation": "Published table text and displayed precision",
+    "sha256": "9a172ad88664e53556233dff2fe29464b58c7b0d0717a1e4bddc3bef5ab662f3"
+  },
+  {
+    "item": "Table S19",
+    "file": "results/publication_tables/Table_S19.csv",
+    "rows": 11,
+    "representation": "Published table text and displayed precision",
+    "sha256": "4064fb5de84e81ca0adfd61095d3638add8895d6a2dc1b296c2ee2f4076f756f"
+  },
+  {
+    "item": "Table S20",
+    "file": "results/publication_tables/Table_S20.csv",
+    "rows": 4,
+    "representation": "Published table text and displayed precision",
+    "sha256": "779b92eecf7c1893b62376344abcf3ec9afa722ab381c329fc04e587ecd4da21"
+  }
+]

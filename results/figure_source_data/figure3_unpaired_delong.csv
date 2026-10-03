@@ -1,0 +1,9 @@
+cohort,subgroup_variable,group_a,group_b,auc_a,auc_b,reported_p,method
+internal,age,<45,≥45,0.802,0.825,0.07,independent-sample DeLong
+internal,sex,Male,Female,0.840,0.869,0.002,independent-sample DeLong
+internal,hba1c,<7%,≥7%,0.817,0.860,0.002,independent-sample DeLong
+internal,ethnicity,Han,Non-Han,0.854,0.836,0.49,independent-sample DeLong
+external,age,<45,≥45,0.726,0.732,0.77,independent-sample DeLong
+external,sex,Male,Female,0.773,0.860,<0.001,independent-sample DeLong
+external,hba1c,<7%,≥7%,0.776,0.804,0.35,independent-sample DeLong
+external,ethnicity,Han,Non-Han,0.799,0.798,0.96,independent-sample DeLong

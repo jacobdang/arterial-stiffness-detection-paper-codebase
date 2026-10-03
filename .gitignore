@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.virtual_documents/
+*.pth
+*.pt
+*.ckpt
+*.pickle
+*.pkl
+*.joblib
+models/internal_archive/
+private_outputs/
+AUTHORIZED_DATA/
+OUTPUTS/

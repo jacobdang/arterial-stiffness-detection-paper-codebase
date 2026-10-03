@@ -1,0 +1,1944 @@
+{
+  "schema_version": 2,
+  "scope": "Coefficients for 20 imputation-specific fusion logistic models",
+  "recommended_interface": "JSON coefficients and the documented sigmoid equation",
+  "input_contract": {
+    "feature_order": [
+      "param1",
+      "param2",
+      "param3",
+      "param4",
+      "param5",
+      "param6",
+      "param7",
+      "param8",
+      "param9",
+      "param10",
+      "param11",
+      "param12",
+      "img_score"
+    ],
+    "human_labels": [
+      "Sex",
+      "Age",
+      "Diastolic blood pressure",
+      "Systolic blood pressure",
+      "Heart rate",
+      "Body mass index",
+      "Diabetes duration",
+      "Hypertension",
+      "Dyslipidemia",
+      "Cardiovascular-disease history",
+      "Current smoking",
+      "Current drinking",
+      "Paper image-model score"
+    ],
+    "values_are_not_raw_clinical_measurements": true,
+    "requirement": "Supply the already encoded, imputed, and normalized 12 clinical inputs used by the study pipeline plus the aligned paper image-model score."
+  },
+  "equation": "p_m = sigmoid(intercept_m + sum_j coefficient_mj * x_j); final p = mean_m(p_m)",
+  "synthetic_engineering_fixtures": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.6,
+      -0.5,
+      -0.4,
+      -0.3,
+      -0.2,
+      -0.10000000000000003,
+      0.0,
+      0.09999999999999998,
+      0.19999999999999996,
+      0.29999999999999993,
+      0.3999999999999999,
+      0.4999999999999999,
+      0.6
+    ]
+  ],
+  "verification": {
+    "authorized_reference_max_abs_error": 0.0,
+    "tolerance": 1e-12,
+    "models_checked": 20,
+    "fixtures_per_model": 2,
+    "ensemble_fixture_means": [
+      0.5520134941863,
+      0.6512733210607449
+    ]
+  },
+  "models": [
+    {
+      "imputation": 1,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2709271936857218,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.05360992304846518
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7241947427301687
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.1906371851919133
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7133802452881071
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3045248411974804
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11101274371167175
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.20575589144682993
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.2779939902251855
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.01590469273804575
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.031087601473638468
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.007679073029662061
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.029086560357857692
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6381149301248932
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.567320515488018,
+        0.6495172263239976
+      ]
+    },
+    {
+      "imputation": 2,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2618428667714821,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.04908761407167649
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7213636729525598
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.19382163992267615
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7077448146464639
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.2965952317028482
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11227392156598946
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.2003655999416645
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.28252354160294685
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.011836126781885389
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.03455590634867972
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.0014015905332067221
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.02886371794363389
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6425537704731923
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5650892551911414,
+        0.6484712425624385
+      ]
+    },
+    {
+      "imputation": 3,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2679694135192753,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.05215957931970446
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7254837699900317
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.19351125910112538
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7158179049556873
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3024001419876816
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11541111142548521
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.18775007849537192
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.28221697265016427
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.02516529443894274
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.04008249861405505
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.01820635140954998
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.03516788427562795
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.636795848631446
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5665943311914683,
+        0.6477225580597923
+      ]
+    },
+    {
+      "imputation": 4,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.26056038115925106,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.04949090705210685
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.723484779177592
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.1878898054252253
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7194300332482334
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3049094592440877
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11374910212034131
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.18904591236507445
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.274223447857678
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.03301382729173066
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.02112584981408852
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.010059619530472434
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.03908089700442947
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6421830051856303
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5647740409112839,
+        0.6494071704951948
+      ]
+    },
+    {
+      "imputation": 5,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.26134613092564585,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.047747242288365764
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7221629464350512
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.1930316397336725
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7114480103360286
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.30028372934206643
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11239298053666733
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.20245189462472696
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.2751279494655112
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.03442442944617936
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.017719796303756637
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.0040112268144722185
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.020145113182760705
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6379941857040454
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5649671717615897,
+        0.6478939953027253
+      ]
+    },
+    {
+      "imputation": 6,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": -0.080511975364035,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.08080030322813152
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.6431879176980341
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.16158745324334475
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7501320141970497
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3176709792857821
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.12112654506656959
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.18253438743455472
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.2712445723120649
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.0014032527540872287
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.04126033039854812
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.008195306649423934
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.04839255426325922
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 2.263195323857669
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.4798828718858898,
+        0.6679971775940008
+      ]
+    },
+    {
+      "imputation": 7,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2667947125909712,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.053479876920835216
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7240627119305013
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.19375595005179644
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7110124830759207
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3027065265642951
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11369850515546129
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.19264388269394678
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.27617415554007385
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.029221465239459392
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.03142937560857714
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.017184570452568836
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.02475723525968982
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6395187849547914
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5663058429940778,
+        0.6479687818353478
+      ]
+    },
+    {
+      "imputation": 8,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.25775640651025694,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.044935796795200274
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7218367818843858
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.18328830239922173
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7189397232622554
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.2997448127602067
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11077442225862132
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.19524229083063488
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.26629091215331385
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.028750280365670167
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.008289171047064992
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.006751919612103467
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.03184416050606967
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6407905131142548
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5640846870671539,
+        0.6499729449706259
+      ]
+    },
+    {
+      "imputation": 9,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": -0.0749067579291331,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.08970880053020437
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.6476197462308393
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.16603111031776796
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7485350707402522
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3258358147321497
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.12870665753338859
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.17775165541126167
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.25887425916239043
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.028677098617580506
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.039842066692256844
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.02267187381192233
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.02537851592738923
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 2.265156099809381
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.48128206193013345,
+        0.666905823767227
+      ]
+    },
+    {
+      "imputation": 10,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.26316320386176,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.049203221328303265
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7233926628233155
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.1906050932033768
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7210285320560744
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.29743007019407014
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11987485426112926
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.19628816097918536
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.28104309426115764
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.024855124675222544
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.03414647473971181
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.006057710347288042
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.02714412205345238
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6407485776439852
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5654137177775118,
+        0.6489017827524526
+      ]
+    },
+    {
+      "imputation": 11,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.25261608671926994,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.04173943821306427
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7241947480566854
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.19108553498562716
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7253627442233872
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.2992973135906964
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.12117070863335237
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.1853871193780589
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.29201084473700956
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.02686593967206423
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.024802230102411317
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.012446710855089244
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.03780273122008434
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6348984620162312
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.562820303903199,
+        0.6469660693720463
+      ]
+    },
+    {
+      "imputation": 12,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.24505934137183275,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.04610766884425987
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7232742870166923
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.1880913025791274
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.709248153982073
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.29683412148435634
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11748729928407792
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.18711282727995018
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.29107207341216146
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.05045977245664901
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.04330534248448104
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.002051221023561431
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.03200707105562524
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6401067686095685
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5609600652003134,
+        0.6462402622336633
+      ]
+    },
+    {
+      "imputation": 13,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2627659815028369,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.048286933038824864
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7238741029470651
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.18412107708550274
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7221046223799673
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3037263953873126
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11521715417940454
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.1954159865065812
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.2864340107858977
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.009154511281261544
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.011253346852961898
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.007835317518183876
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.02228813306169568
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6365676781092278
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.565316109349217,
+        0.6487649470972906
+      ]
+    },
+    {
+      "imputation": 14,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2539637502632777,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.04639291031712887
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7208267554307872
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.18776275993732283
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7141885456949777
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3009045284813185
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.1162265987138475
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.20110384062956943
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.301231878784677
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.03769896248139005
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.03251743042453531
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.0025979658676931598
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.023626603638355004
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.636239170026674
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5631518732614278,
+        0.6470209452488257
+      ]
+    },
+    {
+      "imputation": 15,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": -0.08728732513462123,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.08154579705623696
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.6454385545172473
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.16862944941329658
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7436771869438255
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.316494986739081
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.12389321226891317
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.17933852845578147
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.2753276623919845
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.026652213986121803
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.06654081332220123
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.003139684585553206
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.023098512693296023
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 2.263712559687845
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.4781920133527426,
+        0.6640488369149378
+      ]
+    },
+    {
+      "imputation": 16,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2670518694004075,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.04614619724466111
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7240576112446885
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.18744780344424547
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7228841945766225
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3050552759957537
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11483471667450715
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.20462607067821384
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.2790713752888889
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.020905074384531323
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.02387855040673608
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.010709626022335876
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.018931397468024858
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6362088976512805
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.566369000538325,
+        0.6483372283636174
+      ]
+    },
+    {
+      "imputation": 17,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.25462993368779896,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.05047103166208707
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7244926161389451
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.18922583557721018
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7150439710816222
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.298587034052009
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11053748634981458
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.1778977767476782
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.28416222619031034
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.019753987584996593
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.011182388446824735
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.006648518424511708
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.038255527736089555
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6437795473735246
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5633157553713726,
+        0.6492052093530838
+      ]
+    },
+    {
+      "imputation": 18,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2640238113951516,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.04439163249781996
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7255354680791334
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.19326051623301588
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7181822519763744
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.2996547130626204
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11290884239334975
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.1931471015497823
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.25872555677521536
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.024406922086660468
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.014988592176115647
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.007006369815251393
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.03603229008646434
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6419176442916643
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5656251752432416,
+        0.6499270941155543
+      ]
+    },
+    {
+      "imputation": 19,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.26015137134098576,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.0446421084888843
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7199790131839798
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.18868543184611286
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7204269183973988
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.29925366109267615
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.11271923749643267
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.2028250933351363
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.2723155832360937
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.028483971039908264
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.022595861258191567
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": -0.002706441242403377
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.04253133830619165
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.640329250700414
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5646735018673483,
+        0.649603387103386
+      ]
+    },
+    {
+      "imputation": 20,
+      "classes": [
+        false,
+        true
+      ],
+      "positive_class": true,
+      "intercept": 0.2579471517437496,
+      "coefficients": [
+        {
+          "position": 1,
+          "machine_name": "param1",
+          "human_label": "Sex",
+          "coefficient": -0.04779670987090553
+        },
+        {
+          "position": 2,
+          "machine_name": "param2",
+          "human_label": "Age",
+          "coefficient": 0.7240524316197309
+        },
+        {
+          "position": 3,
+          "machine_name": "param3",
+          "human_label": "Diastolic blood pressure",
+          "coefficient": 0.1821472518877907
+        },
+        {
+          "position": 4,
+          "machine_name": "param4",
+          "human_label": "Systolic blood pressure",
+          "coefficient": 0.7157816638916196
+        },
+        {
+          "position": 5,
+          "machine_name": "param5",
+          "human_label": "Heart rate",
+          "coefficient": 0.3002651900286662
+        },
+        {
+          "position": 6,
+          "machine_name": "param6",
+          "human_label": "Body mass index",
+          "coefficient": -0.1132994292490296
+        },
+        {
+          "position": 7,
+          "machine_name": "param7",
+          "human_label": "Diabetes duration",
+          "coefficient": 0.189466439811487
+        },
+        {
+          "position": 8,
+          "machine_name": "param8",
+          "human_label": "Hypertension",
+          "coefficient": 0.26199045909100144
+        },
+        {
+          "position": 9,
+          "machine_name": "param9",
+          "human_label": "Dyslipidemia",
+          "coefficient": 0.02217923447049781
+        },
+        {
+          "position": 10,
+          "machine_name": "param10",
+          "human_label": "Cardiovascular-disease history",
+          "coefficient": -0.022912894482052835
+        },
+        {
+          "position": 11,
+          "machine_name": "param11",
+          "human_label": "Current smoking",
+          "coefficient": 0.00119955272607964
+        },
+        {
+          "position": 12,
+          "machine_name": "param12",
+          "human_label": "Current drinking",
+          "coefficient": 0.04104755290134344
+        },
+        {
+          "position": 13,
+          "machine_name": "img_score",
+          "human_label": "Paper image-model score",
+          "coefficient": 1.6476716323025273
+        }
+      ],
+      "synthetic_fixture_positive_probabilities": [
+        0.5641315894405451,
+        0.6505937377486868
+      ]
+    }
+  ]
+}

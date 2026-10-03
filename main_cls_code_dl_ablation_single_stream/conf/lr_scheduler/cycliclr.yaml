@@ -1,0 +1,6 @@
+# @package _group_
+name: CyclicLR
+base_lr: 0.0002
+max_lr: 0.002
+step_size_up: 1500
+gamma: 0.99995

@@ -1,0 +1,35 @@
+{
+  "contains_patient_data": false,
+  "derived_from_real_retinal_image": false,
+  "fixture_role": "deterministic engineering smoke test only",
+  "generator": "generate_synthetic_bilateral_fixture.py",
+  "generator_sha256": "57ca71e005b98909199dc1f9005063edca7c3dc53fa07439fe636eb12a70963e",
+  "images": {
+    "left": {
+      "bytes": 47296,
+      "mode": "RGB",
+      "path": "synthetic_left_384.png",
+      "pixels": [
+        384,
+        384
+      ],
+      "seed": 2026082601,
+      "sha256": "f1f5712a4359973e962453e8b6e569bd69c60dff71a810bf772528ced6dd76c9"
+    },
+    "right": {
+      "bytes": 47224,
+      "mode": "RGB",
+      "path": "synthetic_right_384.png",
+      "pixels": [
+        384,
+        384
+      ],
+      "seed": 2026082602,
+      "sha256": "1bbef38abf7b3ac716bc26cb32834346d7ba5baf58ea092cebddf6c82ce1c5fc"
+    }
+  },
+  "nonclinical": true,
+  "performance_validation": false,
+  "schema_version": 1,
+  "synthetic": true
+}

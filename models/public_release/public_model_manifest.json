@@ -1,0 +1,72 @@
+{
+  "fusion_lr_20mi": {
+    "format": "JSON and CSV coefficients",
+    "models": 20
+  },
+  "included_epochs": [
+    14,
+    19
+  ],
+  "outputs": [
+    {
+      "bytes": 1988,
+      "path": "README.md",
+      "sha256": "76458240b272c8d9a2fc14cd9892743fcddc357196fd6816eee0a57962f9feed"
+    },
+    {
+      "bytes": 20744,
+      "path": "fusion_lr_20mi/fusion_lr_20mi_coefficients.csv",
+      "sha256": "22a31b7cd69b723bc3e2093a91ee4646ada29142bd3b3120f26c2a3818b9c7b9"
+    },
+    {
+      "bytes": 52840,
+      "path": "fusion_lr_20mi/fusion_lr_20mi_coefficients.json",
+      "sha256": "f324118ad6ef9e85eadf8464579710d71a2e39e8cec31da7b9452a621d031fd0"
+    },
+    {
+      "bytes": 22201044,
+      "path": "paper_main_tinynet_c/tinynet_c_epoch0014_network_state_dict.safetensors",
+      "sha256": "cde5ffd4886c3873d76bc0f41d82ce7d4b9c3655b53dc1c8066e1aaaa93ded6a"
+    },
+    {
+      "bytes": 22201044,
+      "path": "paper_main_tinynet_c/tinynet_c_epoch0019_network_state_dict.safetensors",
+      "sha256": "5f0aa9851341b5a1c39168feeba6a7c8a1f79149e0acf555a785afcb4b1fbe22"
+    }
+  ],
+  "paper_checkpoint_members": {
+    "14": {
+      "all_tensors_finite": true,
+      "role": "individual bilateral TinyNet-C checkpoint",
+      "strict_architecture_load": "PASS",
+      "tensor_count": 348,
+      "weight": {
+        "bytes": 22201044,
+        "path": "paper_main_tinynet_c/tinynet_c_epoch0014_network_state_dict.safetensors",
+        "sha256": "cde5ffd4886c3873d76bc0f41d82ce7d4b9c3655b53dc1c8066e1aaaa93ded6a"
+      }
+    },
+    "19": {
+      "all_tensors_finite": true,
+      "role": "individual bilateral TinyNet-C checkpoint",
+      "strict_architecture_load": "PASS",
+      "tensor_count": 348,
+      "weight": {
+        "bytes": 22201044,
+        "path": "paper_main_tinynet_c/tinynet_c_epoch0019_network_state_dict.safetensors",
+        "sha256": "5f0aa9851341b5a1c39168feeba6a7c8a1f79149e0acf555a785afcb4b1fbe22"
+      }
+    }
+  },
+  "privacy": {
+    "absolute_paths": false,
+    "cache_files": false,
+    "executable_python_serialization": false,
+    "participant_identifiers": false,
+    "participant_rows": false,
+    "retinal_images": false,
+    "symlinks": false
+  },
+  "schema_version": 1,
+  "scope": "Selected image checkpoints and fusion coefficients"
+}

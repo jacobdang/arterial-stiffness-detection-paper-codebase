@@ -1,0 +1,5 @@
+Stream Design ,AUC (95% CI) ,ΔAUC ,p-value 
+Left eye only,0.771 (0.759–0.783),−0.008,0.002
+Right eye only,0.770 (0.759–0.782),−0.009,0.001
+Mean of separately trained left/right scores,0.781 (0.770–0.792),+0.002,0.301
+Selected bilateral TinyNet-C,0.779 (0.768–0.790),Ref.,–

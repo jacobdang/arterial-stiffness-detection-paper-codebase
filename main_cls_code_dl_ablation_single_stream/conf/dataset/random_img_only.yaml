@@ -1,0 +1,10 @@
+# @package _group_
+name: random_split_img_only_dataset
+occlusion_seg_path: ${oc.env:PWV_OCCLUSION_ROOT,''}
+root_path: ${oc.env:PWV_IMAGE_ROOT}
+train_csv_name: ${oc.env:PWV_SPLIT_ROOT}/train_table_orig_random_img_only_patient_level.csv
+val_csv_name: ${oc.env:PWV_SPLIT_ROOT}/val_table_orig_random_img_only_patient_level.csv
+test_csv_name: ${oc.env:PWV_SPLIT_ROOT}/test_table_orig_random_img_only_patient_level.csv
+feature_list: null
+img_size: 384
+th: 1400

@@ -1,0 +1,7 @@
+Backbone,Parameters (M),Two-eye GMACs
+TinyNet-C (reference),5.52,0.88
+ResNet-18,16.43,11.03
+EfficientNet-B0,8.46,2.37
+MobileNetV2,6.67,1.87
+MobileViT-V2,7.48,4.91
+DeiT-Tiny ,10.20,7.39

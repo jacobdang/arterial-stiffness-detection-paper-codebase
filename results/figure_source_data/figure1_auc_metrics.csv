@@ -1,0 +1,40 @@
+cohort,model,n,events,auc,ci_lower,ci_upper,value_precision
+development,Image model,29081,20633,0.840,0.834,0.845,article display precision
+development,Sex,29081,20633,0.534,0.528,0.540,article display precision
+development,Age,29081,20633,0.767,0.762,0.773,article display precision
+development,Diastolic BP,29081,20633,0.641,0.634,0.648,article display precision
+development,Systolic BP,29081,20633,0.750,0.744,0.755,article display precision
+development,Heart rate,29081,20633,0.539,0.532,0.546,article display precision
+development,BMI,29081,20633,0.526,0.519,0.534,article display precision
+development,Diabetes duration,29081,20633,0.652,0.646,0.659,article display precision
+development,Hypertension,29081,20633,0.651,0.645,0.656,article display precision
+development,Hyperlipidemia,29081,20633,0.525,0.519,0.531,article display precision
+development,Cardiovascular disease,29081,20633,0.548,0.544,0.552,article display precision
+development,Smoking status,29081,20633,0.536,0.530,0.542,article display precision
+development,Drinking status,29081,20633,0.502,0.498,0.507,article display precision
+internal_test,Image model,7331,5158,0.780,0.769,0.792,article display precision
+internal_test,Sex,7331,5158,0.536,0.524,0.548,article display precision
+internal_test,Age,7331,5158,0.766,0.755,0.777,article display precision
+internal_test,Diastolic BP,7331,5158,0.631,0.618,0.644,article display precision
+internal_test,Systolic BP,7331,5158,0.749,0.737,0.760,article display precision
+internal_test,Heart rate,7331,5158,0.535,0.521,0.549,article display precision
+internal_test,BMI,7331,5158,0.526,0.511,0.540,article display precision
+internal_test,Diabetes duration,7331,5158,0.657,0.644,0.670,article display precision
+internal_test,Hypertension,7331,5158,0.649,0.638,0.661,article display precision
+internal_test,Hyperlipidemia,7331,5158,0.534,0.521,0.545,article display precision
+internal_test,Cardiovascular disease,7331,5158,0.551,0.542,0.559,article display precision
+internal_test,Smoking status,7331,5158,0.535,0.523,0.546,article display precision
+internal_test,Drinking status,7331,5158,0.499,0.490,0.507,article display precision
+external_validation,Image model,3899,2943,0.772,0.754,0.790,article display precision
+external_validation,Sex,3899,2943,0.509,0.493,0.526,article display precision
+external_validation,Age,3899,2943,0.770,0.753,0.787,article display precision
+external_validation,Diastolic BP,3899,2943,0.549,0.529,0.569,article display precision
+external_validation,Systolic BP,3899,2943,0.632,0.613,0.652,article display precision
+external_validation,Heart rate,3899,2943,0.442,0.421,0.463,article display precision
+external_validation,BMI,3899,2943,0.516,0.494,0.538,article display precision
+external_validation,Diabetes duration,3899,2943,0.660,0.641,0.680,article display precision
+external_validation,Hypertension,3899,2943,0.610,0.593,0.627,article display precision
+external_validation,Hyperlipidemia,3899,2943,0.464,0.445,0.484,article display precision
+external_validation,Cardiovascular disease,3899,2943,0.533,0.516,0.549,article display precision
+external_validation,Smoking status,3899,2943,0.534,0.515,0.553,article display precision
+external_validation,Drinking status,3899,2943,0.471,0.455,0.487,article display precision

@@ -1,0 +1,5 @@
+model_or_input,run_design,n,events,auc,auc_ci_lower,auc_ci_upper,ci_method,delta_auc_comparator_minus_selected,paired_delong_p_two_sided
+Left eye,separately trained single-eye model,7331,5158,0.770711909548734,0.7586806184269346,0.7825806314806779,participant bootstrap 2.5th-97.5th percentiles,-0.008284683522100544,0.0022130426769649495
+Right eye,separately trained single-eye model,7331,5158,0.7700304523401961,0.7590691328336541,0.781671015844798,participant bootstrap 2.5th-97.5th percentiles,-0.008966140730638394,0.0009396188964996225
+Mean of separately trained left/right scores,arithmetic mean of two single-eye probabilities,7331,5158,0.7809755669308213,0.7697979722332298,0.7923837673370442,participant bootstrap 2.5th-97.5th percentiles,0.001978973859986688,0.30132779646173935
+Selected bilateral TinyNet-C,one jointly trained bilateral model reference,7331,5158,0.7789965930708346,0.7678711495369485,0.7904624683727013,participant bootstrap 2.5th-97.5th percentiles,0,

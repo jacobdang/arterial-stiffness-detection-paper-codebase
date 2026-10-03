@@ -1,0 +1,57 @@
+inputs:
+  scores: AUTHORIZED_DATA/retinal_structure/scores.xlsx
+  clinical: AUTHORIZED_DATA/retinal_structure/clinical.xlsx
+  completed_clinical: AUTHORIZED_DATA/retinal_structure/completed_clinical.csv
+output_dir: OUTPUTS/retinal_structure
+columns:
+  scores:
+    participant_id: participant_id
+    as_event: as_event
+  clinical:
+    participant_id: participant_id
+    age_years: age_years
+    sex: sex
+    diabetes_duration: diabetes_duration
+    systolic_bp: systolic_bp
+    bmi: bmi
+    smoking: smoking
+    drinking: drinking
+    coronary_heart_disease: coronary_heart_disease
+    hba1c: hba1c
+    uacr: uacr
+  completed_clinical:
+    participant_id: patient_id
+    sex: param1
+    age_years: param2
+    systolic_bp: param4
+    bmi: param6
+    diabetes_duration: param7
+    smoking: param11
+    drinking: param12
+completion:
+  continuous:
+    age_years: {offset: 4.6664, divisor: 0.086}
+    systolic_bp: {offset: 6.8671, divisor: 0.0523}
+    bmi: {offset: 6.7646, divisor: 0.2641}
+    diabetes_duration: {offset: 0.9606, divisor: 0.012}
+  categorical: [sex, smoking, drinking]
+continuous_covariates: [age_years, diabetes_duration, systolic_bp, bmi, hba1c, uacr]
+cohort:
+  participants: 7331
+  events: 5158
+scores:
+  - retain_vessel
+  - retain_artery
+  - retain_vein
+  - retain_disc
+  - retain_macular_1dd
+  - retain_macular_2dd
+  - retain_all_with_macular_2dd
+  - remove_vessel_inpaint_biharmonic
+  - remove_artery_inpaint_biharmonic
+  - remove_vein_inpaint_biharmonic
+  - remove_disc_inpaint_biharmonic
+  - remove_macular_1dd_inpaint_biharmonic
+  - remove_macular_2dd_inpaint_biharmonic
+  - remove_all_with_macular_2dd_inpaint_biharmonic
+  - full_image

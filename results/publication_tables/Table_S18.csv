@@ -1,0 +1,5 @@
+Parameter,Base-case value,Unit,Notes
+PWV test cost,120,CNY,Hospital pricing
+Fundus imaging cost (incremental),0 / 40,CNY,0 when piggybacked on DR screening
+PWV fee schedule,2014,–,Nominal CNY; not inflation-adjusted
+Setting,China,–,Hospital-based DR screening

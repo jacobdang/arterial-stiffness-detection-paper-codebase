@@ -1,0 +1,4 @@
+Imputation Method,Factor Model,Fusion Model
+Multiple Imputation,"0.847 (0.838,0.857)","0.853 (0.844,0.863)"
+Mean and Mode Imputation,"0.847 (0.838,0.856)","0.853 (0.844,0.862)"
+Excluding Samples with Missing Values,"0.844 (0.835,0.854)","0.849 (0.839,0.858)"

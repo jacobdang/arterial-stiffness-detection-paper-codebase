@@ -1,0 +1,15 @@
+{
+  "standard_net_benefit_at_0_20": {
+    "threshold": 0.2,
+    "formula": "TP/N - FP/N * threshold/(1-threshold)",
+    "n": 7331,
+    "events": 5158,
+    "tp": 5116,
+    "fp": 1820,
+    "fusion_model": 0.6357932069294775,
+    "treat_all": 0.6294843813940799,
+    "treat_none": 0.0,
+    "fusion_minus_treat_all": 0.0063088255353975775,
+    "fusion_minus_treat_none": 0.6357932069294775
+  }
+}

@@ -1,0 +1,79 @@
+cff-version: 1.2.0
+message: "Please cite the associated article when using this study code."
+title: "Study code for retinal-image detection of arterial stiffness"
+type: software
+version: 0.1.0
+date-released: 2026-10-02
+authors:
+  - family-names: Zhao
+    given-names: Zhiyun
+  - family-names: Dang
+    given-names: Kang
+  - family-names: Zhou
+    given-names: Ziheng
+  - family-names: Peng
+    given-names: Ying
+  - family-names: Wang
+    given-names: Weiqing
+preferred-citation:
+  type: article
+  title: "Deep learning detection and biological interpretation of arterial stiffness from retinal fundus images in diabetes"
+  authors:
+    - family-names: Zhao
+      given-names: Zhiyun
+    - family-names: Dang
+      given-names: Kang
+    - family-names: Zhou
+      given-names: Ziheng
+    - family-names: Peng
+      given-names: Ying
+    - family-names: Liu
+      given-names: Yan
+    - family-names: Zhan
+      given-names: Shiyuan
+    - family-names: Jiao
+      given-names: Shengyin
+    - family-names: Wang
+      given-names: Zilong
+    - family-names: Niu
+      given-names: Jingqi
+    - family-names: Zheng
+      given-names: Qidong
+    - family-names: Zhao
+      given-names: Dong
+    - family-names: Fu
+      given-names: Liujun
+    - family-names: Dai
+      given-names: Yuancheng
+    - family-names: Zhang
+      given-names: Ping
+    - family-names: Gu
+      given-names: Pei
+    - family-names: Wang
+      given-names: Yan
+    - family-names: Wan
+      given-names: Qin
+    - family-names: Wang
+      given-names: Yufan
+    - family-names: Lv
+      given-names: Yikui
+    - family-names: Chu
+      given-names: Weijiang
+    - family-names: Yu
+      given-names: Yanmei
+    - family-names: Zhou
+      given-names: Xingjian
+    - family-names: Qiu
+      given-names: Hongmei
+    - family-names: Kang
+      given-names: Zhiqiang
+    - family-names: Ma
+      given-names: Mingfu
+    - family-names: Zhang
+      given-names: Yifei
+    - family-names: Ning
+      given-names: Guang
+    - family-names: Ding
+      given-names: Xiaowei
+    - family-names: Wang
+      given-names: Weiqing

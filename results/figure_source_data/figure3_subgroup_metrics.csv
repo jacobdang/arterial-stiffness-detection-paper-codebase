@@ -1,0 +1,17 @@
+cohort,subgroup_variable,subgroup_label,group,n,events,auc,ci_lower,ci_upper,value_precision,hba1c_grouping
+internal,age,Age,<45,1544,614,0.802,0.780,0.823,article display precision,
+internal,age,Age,≥45,5787,4544,0.825,0.812,0.837,article display precision,
+internal,sex,Sex,Male,4287,2906,0.840,0.827,0.852,article display precision,
+internal,sex,Sex,Female,3044,2252,0.869,0.855,0.883,article display precision,
+internal,hba1c,HbA1c,<7%,1255,908,0.817,0.792,0.843,article display precision,cohort mean imputation before the 7% split
+internal,hba1c,HbA1c,≥7%,6076,4250,0.860,0.850,0.871,article display precision,cohort mean imputation before the 7% split
+internal,ethnicity,Ethnicity,Han,7072,4993,0.854,0.844,0.863,article display precision,
+internal,ethnicity,Ethnicity,Non-Han,259,165,0.836,0.784,0.880,article display precision,
+external,age,Age,<45,886,411,0.726,0.694,0.757,article display precision,
+external,age,Age,≥45,3013,2532,0.732,0.709,0.755,article display precision,
+external,sex,Sex,Male,2658,1994,0.773,0.752,0.793,article display precision,
+external,sex,Sex,Female,1241,949,0.860,0.836,0.884,article display precision,
+external,hba1c,HbA1c,<7%,,,0.776,0.719,0.831,article display precision,cohort mean imputation before the 7% split
+external,hba1c,HbA1c,≥7%,,,0.804,0.788,0.821,article display precision,cohort mean imputation before the 7% split
+external,ethnicity,Ethnicity,Han,,,0.799,0.782,0.816,article display precision,
+external,ethnicity,Ethnicity,Non-Han,,,0.798,0.744,0.853,article display precision,

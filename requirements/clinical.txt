@@ -1,0 +1,7 @@
+# Separate Python 3.8 environment for clinical and fusion model fitting.
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.10.1
+scikit-learn==1.0.2
+PyYAML==6.0.1
+deco==0.6.3

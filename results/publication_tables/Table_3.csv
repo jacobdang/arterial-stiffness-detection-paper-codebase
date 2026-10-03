@@ -1,0 +1,11 @@
+Domain,Details
+Image model,"Bilateral fundus classifier with shared pretrained TinyNet-C backbone, per-eye projection, two-eye feature averaging, attention-style gating, and final linear classifier"
+Input/preprocessing,Two fundus images per patient; images preprocessed to 384×384; normalized to mean/std 0.5/0.5/0.5
+Augmentation,"Random rotate/flip/transpose, shift-scale-rotate, blur, brightness/contrast during training only"
+Training,"BCE-with-logits, AdamW, LR 0.001, cyclic LR schedule (2e-4 to 2e-3), batch size 64, 45 epochs, gradient clipping 5, mixed precision"
+Sampling,Weighted random sampling to address class imbalance
+Selection/inference,Best checkpoint by validation AUC; final ensemble by averaging top 5 checkpoints
+Structured model,Logistic regression with grid search over C on validation AUC
+Fusion model,Logistic regression using 12 structured variables plus image-model prediction score
+Missing data,"Complete-case analysis, simple imputation, or multiple imputation across 20 datasets"
+Evaluation,"Patient-level evaluation; AUC-based model selection; final reporting includes discrimination, calibration, and reclassification metrics"

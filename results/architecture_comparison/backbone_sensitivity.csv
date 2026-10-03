@@ -1,0 +1,6 @@
+model,run_design,n,events,auc,auc_ci_lower,auc_ci_upper,ci_method,delta_auc_comparator_minus_tinynet,paired_delong_p_two_sided
+ResNet-18,one study seed with architecture-specific optimization,7331,5158,0.7764441619958863,0.7650722779316315,0.7878184555834283,participant bootstrap 2.5th-97.5th percentiles,-0.0025524310749482915,0.28420312432044015
+EfficientNet-B0,one study seed with architecture-specific optimization,7331,5158,0.7829308084502122,0.7719126452903206,0.7942206908112895,participant bootstrap 2.5th-97.5th percentiles,0.003934215379377548,0.08350512468597848
+MobileNetV2-100,one study seed with architecture-specific optimization,7331,5158,0.7812230613398923,0.7698933485993441,0.792943943839196,participant bootstrap 2.5th-97.5th percentiles,0.002226468269057702,0.32095574114585956
+MobileViT-V2-075,one study seed with architecture-specific optimization,7331,5158,0.7829959385578624,0.7716508407944401,0.7942014094626975,participant bootstrap 2.5th-97.5th percentiles,0.00399934548702785,0.09187955693472638
+TinyNet-C,one study seed reference,7331,5158,0.7789965930708346,0.7678711495369485,0.7904624683727013,participant bootstrap 2.5th-97.5th percentiles,0,

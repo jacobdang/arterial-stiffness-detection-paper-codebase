@@ -1,0 +1,4 @@
+strategy,threshold,n,events,tp,fp,formula,net_benefit,scope
+fusion_model,0.2,7331,5158,5116,1820,TP/N - FP/N * threshold/(1-threshold),0.635793206929477,internal-test standard net benefit at the reported 20% threshold point; not a reconstructed full threshold curve
+treat_all,0.2,7331,5158,5158,2173,TP/N - FP/N * threshold/(1-threshold),0.62948438139408,internal-test standard net benefit at the reported 20% threshold point; not a reconstructed full threshold curve
+treat_none,0.2,7331,5158,0,0,TP/N - FP/N * threshold/(1-threshold),0,internal-test standard net benefit at the reported 20% threshold point; not a reconstructed full threshold curve

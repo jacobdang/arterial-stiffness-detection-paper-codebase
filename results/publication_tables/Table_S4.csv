@@ -1,0 +1,19 @@
+Covariate,Data type,Categorical variable definition or continuous variable unit
+Age,Continuous variable,years
+Sex,Categorical variable,"the participants' self-reported sex assigned at birth.
+(male or female)"
+Duration of diabetes,Continuous variable,years
+Alcohol consumption,Categorical variable,"Yes: current drinker 
+No: current non-drinker"
+Smoking,Categorical variable,"Yes: current smoker 
+No: current non-smoker"
+Diagnostic history of hypertension,Categorical variable,"Yes: Have diagnostic history of hypertension or taking at least one antihypertensive medication
+No: Never have diagnostic history of hypertension and never took any antihypertensive medication"
+Diagnostic history of dyslipidemia,Categorical variable,"Yes: Have diagnostic history of dyslipidemia or taking at least one anti-dyslipidemia medication
+No: Never have history of dyslipidemia and never took any anti-dyslipidemia medication"
+Diagnostic history of cardiovascular disease,Categorical variable,"Yes: Have diagnostic history of cardiovascular disease
+No: Never have diagnostic history of cardiovascular disease"
+Systolic blood pressure,Continuous variable,mm Hg
+Diastolic blood pressure,Continuous variable,mm Hg
+BMI,Continuous variable,kg/m2
+Heart Rate,Continuous variable,Per Minute

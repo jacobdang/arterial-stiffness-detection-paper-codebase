@@ -1,0 +1,10 @@
+,Disc-Cup Segmentation,Vessel Segmentation,Fovea Localization
+Train Images,1682 ,366,3440
+Test Images,478,32,834
+Network Architecture,Unet++,TransUNet,U2-Net
+Learning Rate,0.001,0.001,0.001
+Loss Function,CrossEntropy,CrossEntropy,U2 Loss
+Optimizer,Adam,Adam,Adam + SWA
+Image Size,512,512,512
+Test Score,"Disc Dice Score: 0.885
+Cup Dice Score: 0.877",Vessel Dice Score: 0.694,5-Fold cross validation. Average localization error is 18.24 pixels 

@@ -1,0 +1,27 @@
+defaults:
+  - dataset: random_img_only
+  - model: ablation_left_eye_only_tinynet_c
+  - lr_scheduler: cycliclr
+
+hydra:
+  run:
+    dir: ${oc.env:PWV_OUTPUT_ROOT,outputs}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+desc: study_single_eye_ablation_public_template
+seed: 0
+train_ratio: null
+weighted_class_sampling_type: 1
+aug_level: 2
+batch_size: 64
+num_workers: 16
+max_epochs: 45
+occlusion_seg_index: null
+loss_type: bce_logits_loss
+optimizer_type: adamw
+lr: 0.001
+ema_decay: null
+gradient_clip: 5
+pretrained_checkpoint_path: ''
+test_checkpoint_path: ''
+resume_training: false
+epoch_saving_interval: 1

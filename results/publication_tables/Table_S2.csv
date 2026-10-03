@@ -1,0 +1,7 @@
+Classifier,Factor Model,Fusion Model
+Logistic Regression (LR),"0.847 (0.838,0.857)","0.853 (0.844,0.863)"
+Linear SVM (LSVM),"0.846 (0.837,0.856)","0.852 (0.843,0.861)"
+Linear Discriminant Analysis (LDA),"0.846 (0.837,0.856)","0.851 (0.842,0.860)"
+Gradient Boosting Classifier (GBC),"0.847 (0.838,0.856)","0.841 (0.832,0.851)"
+Random Forest (RF),"0.840 (0.831,0.849)","0.842 (0.833,0.851)"
+SVM with Radial Basis (RBF-SVM),"0.836 (0.826,0.846)","0.842 (0.833,0.853)"

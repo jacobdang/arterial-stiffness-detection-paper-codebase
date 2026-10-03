@@ -1,0 +1,7 @@
+model,parameters,million_parameters,two_eye_macs,two_eye_gmacs,tool,version,backend
+ResNet-18,16432705,16.432705,11034796033,11.034796033,ptflops,0.7.3,pytorch
+EfficientNet-B0,8458365,8.458365,2372052977,2.372052977,ptflops,0.7.3,pytorch
+MobileNetV2-100,6674689,6.674689,1874331649,1.874331649,ptflops,0.7.3,pytorch
+MobileViT-V2-075,7475058,7.475058,4907438785,4.907438785,ptflops,0.7.3,pytorch
+TinyNet-C,5516459,5.516459,881750025,0.881750025,ptflops,0.7.3,pytorch
+DeiT-Tiny with 192-to-2048 adapter,10198209,10.198209,7394044361,7.394044361,ptflops,0.7.3,pytorch

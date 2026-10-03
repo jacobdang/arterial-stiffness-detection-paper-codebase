@@ -1,0 +1,14 @@
+train_csv_name: AUTHORIZED_DATA/fusion_mi/train_imputation_$X$.csv
+val_csv_name: AUTHORIZED_DATA/fusion_mi/validation_imputation_$X$.csv
+test_csv_name: AUTHORIZED_DATA/fusion_mi/test_imputation_$X$.csv
+train_img_only_pickle_file: AUTHORIZED_DATA/image_scores/train_top5.pickle
+val_img_only_pickle_file: AUTHORIZED_DATA/image_scores/validation_top5.pickle
+test_img_only_pickle_file: AUTHORIZED_DATA/image_scores/test_top5.pickle
+feat_set_list:
+  - ['1','2','3','4','5','6','7','8','9','10','11','12']
+target: 35
+threshold: 1400
+fusion: true
+use_mice_imputation: true
+mice_imputation_index_list: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+output_dir: OUTPUTS/fusion_random_mi

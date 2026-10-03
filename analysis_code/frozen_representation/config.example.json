@@ -1,0 +1,56 @@
+{
+  "analysis_id": "frozen_representation",
+  "protocol_version": "1.0.1",
+  "random_seed": 20260827,
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "ridge_alphas": [0.01, 0.1, 1, 10, 100, 1000, 10000, 100000, 1000000],
+  "logistic_c_values": [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+  "bootstrap_replicates": 2000,
+  "permutation_replicates": 10000,
+  "bootstrap_ci_percent": 95,
+  "inputs": {
+    "reference_ensemble_pickle": {
+      "path": "AUTHORIZED_DATA/top_checkpoint_ensemble_test_result.pickle",
+      "sha256": "replace-with-authorized-sha256",
+      "trusted_reference_pickle": true
+    },
+    "vessel_participant_roi_table": {
+      "path": "AUTHORIZED_DATA/participant_vessel_table.csv.gz",
+      "sha256": "replace-with-authorized-sha256"
+    },
+    "figure5_clinical_table": {
+      "path": "AUTHORIZED_DATA/clinical_table.csv.gz",
+      "sha256": "replace-with-authorized-sha256"
+    },
+    "paper_values_crosscheck_table": {
+      "path": "AUTHORIZED_DATA/paper_values.csv",
+      "sha256": "replace-with-authorized-sha256"
+    }
+  },
+  "rois": ["disc", "full", "macula_dd2"],
+  "vessel_features": [
+    "artery_width_median_px",
+    "vein_width_median_px",
+    "AVR",
+    "artery_clr",
+    "vein_clr",
+    "artery_tortuosity_median_branch",
+    "vein_tortuosity_median_branch",
+    "artery_branch_count",
+    "vein_branch_count"
+  ],
+  "probe_clinical_features": ["age_years", "female", "hba1c"],
+  "incremental_clinical_features": [
+    "age_years",
+    "female",
+    "diabetes_duration_years",
+    "uacr_log1p",
+    "smoking_status",
+    "drinking_status",
+    "bmi",
+    "systolic_bp",
+    "hba1c",
+    "cvd"
+  ]
+}

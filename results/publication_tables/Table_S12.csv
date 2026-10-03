@@ -1,0 +1,28 @@
+ROI,Feature group,Feature,N,ρ (95% CI),P,q (BH27)
+Disc,Diameter / Calibre,Median arterial width,"6,898",0.022 (−0.002 to 0.047),0.0626,0.0804
+Disc,Diameter / Calibre,Median venous width,"6,901",−0.023 (−0.045 to 0.001),0.0573,0.0774
+Disc,Diameter / Calibre,Arteriovenous ratio,"6,896",0.031 (0.010 to 0.056),0.009,0.0135
+Disc,Central Light Reflex,Arterial central light reflex,"6,898",0.044 (0.021 to 0.067),0.0003,0.0005
+Disc,Central Light Reflex,Venous central light reflex,"6,901",0.087 (0.064 to 0.109),5.56e-13,2.14e-12
+Disc,Morphology,Median arterial tortuosity,"6,897",0.018 (−0.006 to 0.041),0.1428,0.1752
+Disc,Morphology,Median venous tortuosity,"6,901",−0.000 (−0.024 to 0.023),0.9886,0.9886
+Disc,Morphology,Arterial branch count,"6,905",−0.121 (−0.142 to −0.096),9.35e-24,5.05e-23
+Disc,Morphology,Venous branch count,"6,905",−0.030 (−0.054 to −0.007),0.0115,0.0163
+Macula (2 DD),Diameter / Calibre,Median arterial width,"5,505",0.017 (−0.008 to 0.043),0.2105,0.2471
+Macula (2 DD),Diameter / Calibre,Median venous width,"6,217",0.050 (0.024 to 0.076),6.96e-05,0.0001
+Macula (2 DD),Diameter / Calibre,Arteriovenous ratio,"5,195",−0.010 (−0.037 to 0.017),0.487,0.526
+Macula (2 DD),Central Light Reflex,Arterial central light reflex,"5,505",0.103 (0.076 to 0.130),1.94e-14,8.73e-14
+Macula (2 DD),Central Light Reflex,Venous central light reflex,"6,217",0.046 (0.022 to 0.071),0.0003,0.0005
+Macula (2 DD),Morphology,Median arterial tortuosity,"5,503",−0.057 (−0.083 to −0.030),2.13e-05,4.79e-05
+Macula (2 DD),Morphology,Median venous tortuosity,"6,214",0.006 (−0.019 to 0.031),0.6408,0.6655
+Macula (2 DD),Morphology,Arterial branch count,"6,643",−0.177 (−0.198 to −0.154),1.19e-47,1.07e-46
+Macula (2 DD),Morphology,Venous branch count,"6,643",−0.055 (−0.079 to −0.033),7.32e-06,1.80e-05
+Full retina,Diameter / Calibre,Median arterial width,"6,910",−0.042 (−0.065 to −0.020),0.0004,0.0007
+Full retina,Diameter / Calibre,Median venous width,"6,913",0.066 (0.045 to 0.089),3.41e-08,9.20e-08
+Full retina,Diameter / Calibre,Arteriovenous ratio,"6,910",−0.073 (−0.095 to −0.050),1.28e-09,3.84e-09
+Full retina,Central Light Reflex,Arterial central light reflex,"6,910",0.074 (0.051 to 0.097),8.04e-10,2.71e-09
+Full retina,Central Light Reflex,Venous central light reflex,"6,913",0.047 (0.024 to 0.071),8.96e-05,0.0002
+Full retina,Morphology,Median arterial tortuosity,"6,910",0.014 (−0.010 to 0.037),0.2361,0.2657
+Full retina,Morphology,Median venous tortuosity,"6,913",0.124 (0.101 to 0.148),4.84e-25,3.27e-24
+Full retina,Morphology,Arterial branch count,"6,913",−0.453 (−0.472 to −0.434),<1×10^−300,<1×10^−300
+Full retina,Morphology,Venous branch count,"6,913",−0.380 (−0.402 to −0.359),1.58e-236,2.13e-235

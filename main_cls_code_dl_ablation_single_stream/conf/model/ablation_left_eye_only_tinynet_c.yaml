@@ -1,0 +1,6 @@
+# @package _group_
+network_arch: SingleStreamWrapper
+backbone_name: tinynet_c
+eye: left
+approximate_head_dim: 2048
+wd: 0.001
